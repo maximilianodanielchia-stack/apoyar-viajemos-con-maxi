@@ -12,7 +12,8 @@ Esta landing es independiente del portfolio profesional.
 
 - Página principal para colaboración voluntaria.
 - Alias listo para copiar.
-- Botón para copiar todos los datos de transferencia.
+- CVU listo para copiar.
+- Botón para copiar todos los datos de transferencia, incluyendo alias y CVU.
 - Botón para abrir Mercado Pago.
 - Barra de progreso:
   - Meta: $100.000
@@ -46,3 +47,10 @@ En index.html buscar:
 - width: 11%
 
 Cambiar esos valores cuando avance la meta.
+
+
+## Datos de transferencia actuales
+
+Alias: viajemosconmaxi
+CVU: 0000003100025207941138
+Titular: Maximiliano Daniel Chia
