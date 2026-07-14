@@ -1,0 +1,4 @@
+const toast=document.querySelector('.toast');function showToast(message='Copiado'){toast.textContent=message;toast.classList.add('show');window.setTimeout(()=>toast.classList.remove('show'),1800)}async function copyText(text,message){try{await navigator.clipboard.writeText(text);showToast(message)}catch(error){const textarea=document.createElement('textarea');textarea.value=text;document.body.appendChild(textarea);textarea.select();document.execCommand('copy');textarea.remove();showToast(message)}}document.querySelectorAll('[data-copy]').forEach(button=>{button.addEventListener('click',()=>{copyText(button.dataset.copy,'Alias copiado')})});document.querySelector('.copy-all')?.addEventListener('click',()=>{copyText(`Alias: maxidachi
+Titular: Maximiliano Daniel Chia
+Concepto sugerido: Colaboración Viajemos con Maxi
+Monto: el que quieras aportar`,'Datos copiados')});
