@@ -14,7 +14,6 @@ Esta landing es independiente del portfolio profesional.
 - Alias listo para copiar.
 - CVU listo para copiar.
 - Botón para copiar todos los datos de transferencia, incluyendo alias y CVU.
-- Botón para abrir Mercado Pago.
 - Barra de progreso:
   - Meta: $100.000
   - Progreso actual: 11%
@@ -54,3 +53,9 @@ Cambiar esos valores cuando avance la meta.
 Alias: viajemosconmaxi
 CVU: 0000003100025207941138
 Titular: Maximiliano Daniel Chia
+
+
+## Cambio aplicado
+
+Se eliminó el botón de Mercado Pago porque abría el sitio web en el navegador.
+La landing queda enfocada en transferencia directa mediante alias o CVU.
